@@ -1,3 +1,4 @@
+import React from "react";
 import config from "../danieldev-config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
@@ -8,17 +9,21 @@ function HomePage() {
     const estilosDaHomePage = { 
         //backgroundColor: "red" 
     };
+    const [valorDoFiltro, setValorDoFiltro] = React.useState("");    
 
     //console.log(config.playlists);
 
     return (
         <>
-        <CSSReset />
-        <div style={estilosDaHomePage}>
-            <Menu />
-            <Header />
-            <TimeLine playlists={config.playlists} />
-        </div>
+            <CSSReset />
+            <div style={estilosDaHomePage}>
+                {/*Prop Drilling: perfurando a aplicação e passando as propriedades para baixo*/}
+                <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
+                <Header />
+                <Timeline searchValue={valorDoFiltro} playlists={config.playlists}>
+                    Conteúdo
+                </Timeline>    
+            </div>
         </>
     );
 }
@@ -34,20 +39,13 @@ export default HomePage
 //}
 
 const StyledHeader = styled.div`
-    .banner{
-        width: 100%;
-        height: 200px;
-        img {
-			object-fit: cover;
-		}	        
-    }
-    .user-info {
-        img {
+    img { 
         width: 80px;
         height: 80px;
         border-radius: 50%;
-    }
-        margin-top: 50px;
+    }   	        
+    
+    .user-info {
         display: flex;
         align-items: center;
         width: 100%;
@@ -55,13 +53,17 @@ const StyledHeader = styled.div`
         gap: 16px;
     }
 `;
+
+const StyledBanner = styled.div`
+    background-color: blue;
+    background-image: url(${({ bg }) => bg});
+    /*background-image: url(${config.bg});*/
+    height: 230px;    
+`;
 function Header() {
     return (
         <StyledHeader>
-            <div className="banner">
-				<img className="banner" src="https://images.unsplash.com/photo-1624280433509-b01afeaf68e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80" alt="banner" />
-			
-            </div>   
+            <StyledBanner bg={config.bg}/>
             <section className="user-info">
                 <img src={`https://github.com/${config.github}.png`} />
                 <div>
@@ -77,7 +79,7 @@ function Header() {
     )
 }
 
-function TimeLine(propriedades) {
+function Timeline({searchValue, ...propriedades}) {
     //console.log("Dentro do componente", propriedades.playlists);
     const playlistNames = Object.keys(propriedades.playlists);
     //Statement
@@ -86,15 +88,21 @@ function TimeLine(propriedades) {
         <StyledTimeline>
             {playlistNames.map((playlistName) => {
                 const videos = propriedades.playlists[playlistName];
-                console.log(playlistName);
-                console.log(videos);
+                //console.log(playlistName);
+                //console.log(videos);
                 return (
-                    <section>
+                    <section key={playlistName}>
                         <h2>{playlistName}</h2>
                         <div>
-                            {videos.map((video) => {
+                            {videos
+                            .filter((video) => {
+                                const titleNormalized = video.title.toLowerCase();
+                                const searchValueNormalized = searchValue.toLowerCase();
+                                return titleNormalized.includes(searchValueNormalized)
+                            })
+                            .map((video) => {
                                 return (
-                                    <a href={video.url}>
+                                    <a key={video.url} href={video.url}>
                                         <img src={video.thumb} />
                                         <span>
                                             {video.title}
