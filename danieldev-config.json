@@ -2,6 +2,12 @@
     "name": "Daniel Jordao",
     "job": "Front-end Developer",
     "github": "danielsjordao",
+    "favorites": [		
+		{
+			"url": "https://aluratube-next-js.vercel.app/",
+			"github": "sucodelarangela"
+		}
+	],
     "playlists": {
     "jogos": [
         {
