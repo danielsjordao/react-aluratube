@@ -9,48 +9,25 @@
 		}
 	],
     "playlists": {
-    "jogos": [
+        
+    "Conhecimento": [
         {
-                "title": "Frostpunk - Neve e Steak tartare",
-                "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
-                "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
+                "title": "Build and Deploy a Fully Responsive Website with Modern UI/UX in React JS with Tailwind",
+                "url": "https://www.youtube.com/watch?v=_oO4Qi5aVZs",
+                "thumb": "https://img.youtube.com/vi/_oO4Qi5aVZs/mqdefault.jpg"
         },
         {
-                "title": "Frostpunk - Neve e Steak tartare",
-                "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg",
-                "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
+                "title": "Como usar imagens no Next.js",
+                "url": "https://www.youtube.com/watch?v=LQqliNavVYQ",
+                "thumb": "https://img.youtube.com/vi/LQqliNavVYQ/mqdefault.jpg"
         },
         {
-                "title": "Gas Station Simulator - 8 dias sem dormir!",
-                "url": "https://www.youtube.com/watch?v=R1d0DyRDG_Q",
-                "thumb": "https://img.youtube.com/vi/R1d0DyRDG_Q/hqdefault.jpg"
-        },
-        {
-                "title": "Gartic Phone - Não assista a esse NerdPlayer!",
-                "url": "https://www.youtube.com/watch?v=0oJQUs5oRiM",
-                "thumb": "https://img.youtube.com/vi/0oJQUs5oRiM/hqdefault.jpg"
-        },
-        {
-                "title": "Netdecking Estraga o Magic?",
-                "url": "https://www.youtube.com/watch?v=dXihyhYEsEc",
-                "thumb": "https://img.youtube.com/vi/dXihyhYEsEc/hqdefault.jpg"
-            },
-            {
-                "title": "Cities: Skylines - EPCOTAB, o futuro de Saint Laurrent",
-                "url": "https://www.youtube.com/watch?v=zybKHMgLCWU",
-                "thumb": "https://img.youtube.com/vi/zybKHMgLCWU/hqdefault.jpg"
-            },
-            {
-                "title": "We Were Here Together - Os Enigmas deste Mundo",
-                "url": "https://www.youtube.com/watch?v=UKgQsrHUG40",
-                "thumb": "https://img.youtube.com/vi/UKgQsrHUG40/hqdefault.jpg"
-            },
-            {
-                "title": "Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!",
-                "url": "https://www.youtube.com/watch?v=n3TneUb5c-w",
-                "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
-            }
+                "title": "Como Fazer Uma API (o jeito mais fácil e moderno que eu já vi)",
+                "url": "https://www.youtube.com/watch?v=f7JWDLFhR_c",
+                "thumb": "https://img.youtube.com/vi/f7JWDLFhR_c/mqdefault.jpg"
+        } 
         ],
+
         "front-end": [
             {
                 "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
