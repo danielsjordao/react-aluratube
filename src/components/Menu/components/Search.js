@@ -14,7 +14,7 @@ const StyledSearch = styled.div`
     width: 80%;
     padding: 4px 6px;
     //border: none;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
     outline: none;
     color: ${({ theme }) => theme.textColorBase};
     background-color: ${({ theme }) => theme.backgroundBase};
@@ -23,7 +23,7 @@ const StyledSearch = styled.div`
     flex: 1;
     cursor: pointer;
     //border: none;
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
     background-color: ${({ theme }) => theme.backgroundLevel2};
     box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
     border-left: 1px 1px solid ${({ theme }) => theme.borderBase};
