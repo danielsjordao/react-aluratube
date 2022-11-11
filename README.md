@@ -12,5 +12,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [React](https://pt-br.reactjs.org/)
 - [Node e NPM](https://nodejs.org/)
 - [NextJS](https://nextjs.org/)
-- [supabase] (https://app.supabase.com/)
+- [supabase](https://app.supabase.com/)
 
