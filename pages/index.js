@@ -3,11 +3,44 @@ import config from "../danieldev-config.json";
 import styled from "styled-components";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
+import { videoService } from "../src/components/Menu/components/services/videoService";
 
-function HomePage() {   
-    const [valorDoFiltro, setValorDoFiltro] = React.useState("");    
 
-    //console.log(config.playlists);
+
+function HomePage() {
+    const service = videoService();   
+    const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+    const [playlists, setPlaylists] = React.useState({});  //config.playlists
+
+    //const playlists = {
+    //    "Tube Dicas": [],
+    //};
+    
+    //useEffect recebe como primero parâmetro uma função e 
+    //em segundo parâmetro um Array, se deixar o Array vazio 
+    //vai ser executado só uma vez, ai dentro pode passar variáveis para controlar o Hook.
+    
+    React.useEffect(() => {
+        console.log("useEffect");
+        service
+            .getAllVideos()
+            .then((dados) => {
+                console.log(dados.data);
+                // Forma imutavel
+                const novasPlaylists = {};
+                dados.data.forEach((video) => {
+                    if (!novasPlaylists[video.playlist]) novasPlaylists[video.playlist] = [];
+                    novasPlaylists[video.playlist] = [
+                        video,
+                        ...novasPlaylists[video.playlist],
+                    ];
+                });
+
+                setPlaylists(novasPlaylists);
+            });
+    }, []); // [] não está monitorando nada
+
+console.log("Playlists Pronto", playlists);
 
     return (
         <>           
