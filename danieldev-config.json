@@ -25,9 +25,23 @@
                 "title": "Como Fazer Uma API (o jeito mais fácil e moderno que eu já vi)",
                 "url": "https://www.youtube.com/watch?v=f7JWDLFhR_c",
                 "thumb": "https://img.youtube.com/vi/f7JWDLFhR_c/mqdefault.jpg"
+        },
+        {
+            "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
+            "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
+            "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
+        },
+        {
+            "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
+            "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
+            "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+        },
+        {
+            "title": "O que é Machine Learning? #HipstersPontoTube",
+            "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+            "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
         } 
         ],
-
         "front-end": [
             {
                 "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
@@ -40,11 +54,6 @@
                 "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
             },
             {
-                "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
-                "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
-                "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
-            },
-            {
                 "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
                 "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
                 "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
@@ -53,16 +62,6 @@
                 "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
                 "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
                 "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
-            },
-            {
-                "title": "Como Foi Programado um App Que Faz Mágica",
-                "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
-                "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
-            },
-            {
-                "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
-                "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
-                "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
             },
             {
                 "title": "5 Erros Históricos do CSS",
@@ -90,11 +89,6 @@
                 "title": "O que é o Java? #HipstersPontoTube",
                 "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
                 "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
-            },
-            {
-                "title": "O que é Machine Learning? #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
-                "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
             },
             {
                 "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
