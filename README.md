@@ -1,8 +1,8 @@
 # Imersão React 2022 - Alura - aluratube
 
-![image](https://user-images.githubusercontent.com/101356855/201175310-5f8e413c-2b61-4b2c-beef-81dc2f6b78cb.png)
-![image](https://user-images.githubusercontent.com/101356855/201175421-7a78363f-28fc-4660-9f1e-076c6d270391.png)
-
+![image](https://user-images.githubusercontent.com/101356855/201522983-79825375-dc10-40fd-8f26-5c2605596fa2.png)
+![image](https://user-images.githubusercontent.com/101356855/201523003-457b3421-cc59-4cde-97b2-691661bc307a.png)
+![image](https://user-images.githubusercontent.com/101356855/201523040-43eaa9ab-c764-4f83-92d5-5409d8320671.png)
 
 ## 🚀 Tecnologias
 
