@@ -5,8 +5,6 @@ import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import { videoService } from "../src/components/Menu/components/services/videoService";
 
-
-
 function HomePage() {
     const service = videoService();   
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
