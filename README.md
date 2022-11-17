@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/101356855/201523205-4d96c2f8-93e2-4a97-869c-941ad2820d5c.png)
 
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias de desenvolvimento
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - HTML e CSS
