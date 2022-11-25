@@ -16,3 +16,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [NextJS](https://nextjs.org/)
 - [supabase](https://supabase.com/)
 
+## Agradecimentos
+- Alura
+
+
